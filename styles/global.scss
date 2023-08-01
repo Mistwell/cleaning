@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-container {
+	@apply w-full max-w-[1300px] px-[30px] mx-auto;
+}
+
+@media (max-width: 319px) {
+	html,
+	body {
+		@apply min-w-[320px];
+	}
+}
+
+html,
+body {
+	@apply m-0 p-0 overflow-x-clip;
+}
+
+.react-svg {
+	@apply w-full;
+	svg {
+		@apply w-full h-full;
+	}
+}
