@@ -28,7 +28,7 @@ export default function RootLayout({
 	return (
 		<html lang="ru">
 			<body
-				className={`${LatoFont.variable} ${MontserratFont.variable} font-main`}
+				className={`${LatoFont.variable} ${MontserratFont.variable} font-main text-black`}
 			>
 				<Template>{children}</Template>
 			</body>

@@ -12,26 +12,27 @@ export default function ContactForm() {
 									Закажите бесплатную консультацию
 								</div>
 								<div className="text-black text-3xl font-semibold mt-8">
-									Оставьте заявку и мы свяжемся с вами для консультации.
+									Оставьте заявку и&nbsp;мы свяжемся с&nbsp;вами
+									для&nbsp;консультации.
 								</div>
 							</div>
 						</div>
 						<div className="w-1/2">
 							<div>
 								<input
-									className="w-full text-xl bg-white px-8 py-4 focus:outline-yellow text-black"
+									className="w-full text-xl bg-white px-8 py-3 focus:outline-yellow text-black"
 									type="text"
 									placeholder="Введите ваше имя"
 								/>
 							</div>
 							<div className="mt-4">
 								<input
-									className="w-full text-xl bg-white px-8 py-4 focus:outline-yellow text-black"
+									className="w-full text-xl bg-white px-8 py-3 focus:outline-yellow text-black"
 									type="text"
 									placeholder="Введите номер телефона"
 								/>
 							</div>
-							<div className="mt-8">
+							<div className="mt-6">
 								<Button isAlternative>Оставить заявку</Button>
 							</div>
 						</div>

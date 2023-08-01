@@ -8,7 +8,7 @@ export default function Footer() {
 			<footer className="w-full bg-black py-12">
 				<div className="page-container text-white">
 					<div className="flex items-start justify-between">
-						<div className="react-svg max-w-[227px]">
+						<div className="react-svg max-w-[200px]">
 							<Logo isWhite />
 						</div>
 						<div className="flex items-start justify-between gap-24">

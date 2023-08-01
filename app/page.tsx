@@ -1,3 +1,11 @@
+import Main from "./_page/Main";
+import Service from "./_page/Service";
+
 export default function Home() {
-	return <div className="mt-24 bg-green h-full">9999999</div>;
+	return (
+		<>
+			<Main />
+			<Service />
+		</>
+	);
 }

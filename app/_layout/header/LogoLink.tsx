@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function LogoLink() {
 	return (
 		<>
-			<Link href="/" className="react-svg max-w-[227px]">
+			<Link href="/" className="react-svg max-w-[200px]">
 				<Logo />
 			</Link>
 		</>

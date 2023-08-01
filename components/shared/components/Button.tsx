@@ -12,7 +12,7 @@ export default function Button({
 					isAlternative
 						? "text-white bg-green  hover:bg-white hover:text-green"
 						: "text-black bg-white  hover:bg-green hover:text-white"
-				}  text-[22px] py-4 px-10 border-[2px] border-green  duration-300`}
+				}  text-xl py-2 px-6 border-[2px] border-green  duration-300`}
 			>
 				{children}
 			</button>

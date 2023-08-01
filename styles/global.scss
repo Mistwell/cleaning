@@ -24,3 +24,7 @@ body {
 		@apply w-full h-full;
 	}
 }
+
+.h2 {
+	@apply font-title font-semibold text-5xl text-black text-center;
+}
