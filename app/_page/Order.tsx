@@ -2,7 +2,7 @@ import Clock from "@/shared/icons/order/Clock";
 import Face from "@/shared/icons/order/Face";
 import House from "@/shared/icons/order/House";
 import Wash from "@/shared/icons/order/Wash";
-import List from "@/shared/icons/order/list";
+import List from "@/shared/icons/order/List";
 
 export default function Order() {
 	const data = [
