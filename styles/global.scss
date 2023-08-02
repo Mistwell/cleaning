@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .page-container {
-	@apply w-full max-w-[1300px] px-[30px] mx-auto;
+	@apply w-full fhd:max-w-[1600px] max-w-[1300px] px-[30px] mx-auto;
 }
 
 @media (max-width: 319px) {
@@ -27,4 +27,23 @@ body {
 
 .h2 {
 	@apply font-title font-semibold text-5xl text-black text-center;
+}
+
+.mySwiper {
+	.swiper-wrapper {
+		@apply items-stretch;
+	}
+	.swiper-slide {
+		@apply h-auto;
+	}
+}
+
+.swiper-button {
+	@apply hover:scale-110 duration-300 absolute top-[calc(50%-30px)] w-[60px] h-[60px] after:hidden;
+	&-prev {
+		@apply left-0 bg-[url('/img/slider-left.svg')] translate-x-[-80px];
+	}
+	&-next {
+		@apply right-0 bg-[url('/img/slider-right.svg')] translate-x-[80px];
+	}
 }

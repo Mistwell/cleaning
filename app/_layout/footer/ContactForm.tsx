@@ -20,14 +20,14 @@ export default function ContactForm() {
 						<div className="w-1/2">
 							<div>
 								<input
-									className="w-full text-xl bg-white px-8 py-3 focus:outline-yellow text-black"
+									className="rounded-[5px] w-full text-xl bg-white px-8 py-3 focus:outline-yellow text-black"
 									type="text"
 									placeholder="Введите ваше имя"
 								/>
 							</div>
 							<div className="mt-4">
 								<input
-									className="w-full text-xl bg-white px-8 py-3 focus:outline-yellow text-black"
+									className="rounded-[5px] w-full text-xl bg-white px-8 py-3 focus:outline-yellow text-black"
 									type="text"
 									placeholder="Введите номер телефона"
 								/>

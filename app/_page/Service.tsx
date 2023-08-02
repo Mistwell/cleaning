@@ -40,7 +40,7 @@ export default function Service() {
 			<div className="mt-32">
 				<div className="page-container">
 					<h2 className="h2">Выберите необходимую услугу</h2>
-					<div className="mt-12 grid grid-cols-3 gap-8">
+					<div className="mt-16 grid grid-cols-3 gap-8">
 						{data.map(function (item, index) {
 							return (
 								<>
@@ -73,7 +73,7 @@ export function ServiceItem({
 		<>
 			<Link
 				href={href}
-				className="border-green border-[2px] group hover:bg-white hover:scale-110 duration-300 w-full min-h-[227px] bg-green flex items-center justify-center relative"
+				className="rounded-[5px] border-green border-[2px] group hover:bg-white hover:scale-110 duration-500 w-full min-h-[227px] bg-green flex items-center justify-center relative"
 			>
 				<div className="">
 					<div

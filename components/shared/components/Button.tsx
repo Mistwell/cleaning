@@ -10,9 +10,9 @@ export default function Button({
 			<button
 				className={`${
 					isAlternative
-						? "text-white bg-green  hover:bg-white hover:text-green"
+						? "text-white bg-green  hover:bg-white hover:text-black"
 						: "text-black bg-white  hover:bg-green hover:text-white"
-				}  text-xl py-2 px-6 border-[2px] border-green  duration-300`}
+				}  text-xl py-2 px-6 border-[2px] border-green duration-300 rounded-[5px]`}
 			>
 				{children}
 			</button>
